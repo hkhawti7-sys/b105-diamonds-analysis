@@ -1,13 +1,13 @@
 # Diamonds: does a better cut sell for a higher price?
 
-B105 Applied Statistical Modeling - student assignment.
+B105 Applied Statistical Modeling.
 
 ## What this project does
 
 An online jewellery shop believes that customers pay more money for a better
 cut. This project tests that idea with real data.
 
-I compare two cut groups, **Ideal** and **Premium**, and I look at the price of
+we compare two cut groups, **Ideal** and **Premium**, and I look at the price of
 one carat so the comparison is fair. The test is an independent two sample
 t-test (the Welch version).
 
@@ -50,7 +50,7 @@ No other package is needed. Everything else uses base R.
 
 ## Note on the sampling
 
-I use systematic sampling (every k-th row) and not `sample()`. The reason is
+we use systematic sampling (every k-th row) and not `sample()`. The reason is
 that systematic sampling gives the same 500 diamonds on every computer. So if
 you run this script, you will get exactly the same numbers as in my report.
 
